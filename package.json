@@ -12,5 +12,15 @@
     "buildsInSource": true
   },
   "dependencies": {
+  },
+  "exportedEnv": {
+    "OPENSSL_LIB_PATH": {
+        "val": "#{self.lib}",
+        "scope": "global"
+    },
+    "OPENSSL_INCLUDE_PATH": {
+        "val": "#{self.include}",
+        "scope": "global"
+    }
   }
 }
