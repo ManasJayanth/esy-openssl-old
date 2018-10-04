@@ -1,0 +1,16 @@
+{
+  "name": "esy-openssl",
+  "version": "0.1.0",
+  "description": "Mirror of OpenSSL",
+  "license": "GPLv3",
+  "esy": {
+    "build": [
+        ["bash", "-c", "#{os == 'windows' ? './configure mingw64 --prefix=#{self.install} --cross-compile-prefix=x86_64-w64-mingw32' : './configure --prefix=#{self.install}'}"],
+        ["make"],
+        ["make install"]
+    ],
+    "buildsInSource": "_build"
+  },
+  "dependencies": {
+  }
+}
