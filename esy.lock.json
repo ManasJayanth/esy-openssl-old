@@ -1,0 +1,16 @@
+{
+  "hash": "2a0dedc62a94b29c49765c8ac4f7f3b3",
+  "root": "esy-openssl@path:.",
+  "node": {
+    "esy-openssl@path:.": {
+      "record": {
+        "name": "esy-openssl",
+        "version": "path:.",
+        "source": "path:.",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    }
+  }
+}
