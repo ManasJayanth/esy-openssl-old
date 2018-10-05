@@ -7,7 +7,8 @@
     "build": [
         ["bash", "-c", "#{os == 'windows' ? './configure mingw64 --prefix=$cur__install --cross-compile-prefix=x86_64-w64-mingw32-' : './config --prefix=$cur__install'}"],
         ["make"],
-        ["make", "install"]
+        ["make", "install"],
+        ["./esy/test.sh"]
     ],
     "buildsInSource": true,
     "exportedEnv": {
