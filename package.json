@@ -9,18 +9,18 @@
         ["make"],
         ["make", "install"]
     ],
-    "buildsInSource": true
+    "buildsInSource": true,
+    "exportedEnv": {
+      "OPENSSL_LIB_PATH": {
+          "val": "#{self.lib}",
+          "scope": "global"
+      },
+      "OPENSSL_INCLUDE_PATH": {
+          "val": "#{self.include}",
+          "scope": "global"
+      }
+    }
   },
   "dependencies": {
-  },
-  "exportedEnv": {
-    "OPENSSL_LIB_PATH": {
-        "val": "#{self.lib}",
-        "scope": "global"
-    },
-    "OPENSSL_INCLUDE_PATH": {
-        "val": "#{self.include}",
-        "scope": "global"
-    }
   }
 }
