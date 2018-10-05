@@ -16,7 +16,7 @@
           "scope": "global"
       },
       "OPENSSL_INCLUDE_PATH": {
-          "val": "#{self.include}",
+          "val": "#{self.install / 'include'}",
           "scope": "global"
       }
     }
