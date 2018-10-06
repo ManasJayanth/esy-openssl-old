@@ -17,11 +17,10 @@ ls -a $INCLUDE
 echo "lib.."
 ls -a $cur__lib
 
-
-
 $CC ./../esy/test.c -o ./test.exe -I$INCLUDE -L$cur__lib -lssl -lcrypto
 
-cp $cur__bin/* .
-cp $cur__lib/* .
+export PATH=$PATH:$cur__bin:$cur__lib
+
+echo "Augmented path: $PATH"
 
 ./test.exe
