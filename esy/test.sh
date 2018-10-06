@@ -18,6 +18,6 @@ echo "lib.."
 ls -a $cur__lib
 $CC ./../esy/test.c -o ./test.exe -I$INCLUDE -L$cur__lib -lssl -lcrypto
 
-cp $cur__bin/*.dll .
+cp $cur__bin/* .
 
 ./test.exe
