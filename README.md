@@ -2,6 +2,8 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/54y3s6ip6ti7y3vm/branch/esy?svg=true)](https://ci.appveyor.com/project/bryphe/esy-openssl/branch/esy)
 [![Build Status](https://travis-ci.org/bryphe/esy-openssl.svg?branch=esy)](https://travis-ci.org/bryphe/esy-openssl)
 
+ -----------
+
  OpenSSL 1.1.1 11 Sep 2018
 
  Copyright (c) 1998-2018 The OpenSSL Project
