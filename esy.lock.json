@@ -1,12 +1,12 @@
 {
-  "hash": "2a0dedc62a94b29c49765c8ac4f7f3b3",
-  "root": "esy-openssl@path:.",
+  "hash": "d10585b707b5ab54802c6c85154328fd",
+  "root": "root@path:./package.json",
   "node": {
-    "esy-openssl@path:.": {
+    "root@path:./package.json": {
       "record": {
-        "name": "esy-openssl",
-        "version": "path:.",
-        "source": "path:.",
+        "name": "root",
+        "version": "path:./package.json",
+        "source": "path:./package.json",
         "files": [],
         "opam": null
       },
