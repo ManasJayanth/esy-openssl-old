@@ -21,6 +21,10 @@
     "OPENSSL_INCLUDE_PATH": {
         "val": "#{self.include}",
         "scope": "global"
+    },
+    "OPENSSL_BIN_PATH": {
+        "val": "#{self.bin}",
+        "scope": "global"
     }
   }
 }
