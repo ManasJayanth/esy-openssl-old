@@ -42,6 +42,7 @@
     }
   },
   "dependencies": {
-    "@esy-packages/esy-autoconf": "esy-packages/esy-autoconf:package.json#71a8836"
+    "@esy-packages/esy-autoconf": "esy-packages/esy-autoconf:package.json#71a8836",
+    "@opam/conf-pkg-config": "*"
   }
 }
